@@ -781,46 +781,6 @@
     <wire from="(930,440)" to="(1040,440)"/>
     <wire from="(930,460)" to="(1040,460)"/>
   </circuit>
-  <circuit name="HAS_NUM_PRESSED">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="HAS_NUM_PRESSED"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="4000.0"/>
-    <comp lib="0" loc="(230,60)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="HAS_NUM"/>
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(420,260)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="YES_OR_NO"/>
-      <a name="type" val="output"/>
-    </comp>
-    <comp lib="0" loc="(420,90)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="5"/>
-      <a name="incoming" val="5"/>
-    </comp>
-    <comp lib="1" loc="(370,240)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="5"/>
-    </comp>
-    <wire from="(230,60)" to="(420,60)"/>
-    <wire from="(350,100)" to="(350,190)"/>
-    <wire from="(350,100)" to="(400,100)"/>
-    <wire from="(360,110)" to="(360,190)"/>
-    <wire from="(360,110)" to="(400,110)"/>
-    <wire from="(370,120)" to="(370,190)"/>
-    <wire from="(370,120)" to="(400,120)"/>
-    <wire from="(370,240)" to="(370,260)"/>
-    <wire from="(370,260)" to="(420,260)"/>
-    <wire from="(380,130)" to="(380,190)"/>
-    <wire from="(380,130)" to="(400,130)"/>
-    <wire from="(390,140)" to="(390,190)"/>
-    <wire from="(390,140)" to="(400,140)"/>
-    <wire from="(420,60)" to="(420,90)"/>
-  </circuit>
   <circuit name="OP_DECODER">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="OP_DECODER"/>
